@@ -6,7 +6,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: "images/ignasi_pattern_s.png";
 }
 
 html {
@@ -91,8 +91,9 @@ html {
   color: #bbc;
 }
 
-#nate-image {
-  /* Positioning */
+#control {
+  height: 25%;
+  width: 25%;
   float: left;
 
   /* Box-model */
@@ -101,8 +102,6 @@ html {
   margin-top: 20px;
   margin-right: 20px;
 }
-
-/* ----------------- */
 
 /* CONNECT W/ ME CSS */
 
@@ -299,12 +298,33 @@ html {
 
 /* MEDIA  QUERY  CSS */
 
-/* ----------------- */
+/* MEDIA-QUERIES, mobile-first — Bootstrap 3 */
+/* iPhone Retina */
+@media only screen and (min-width: 320px) {
 
-@media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4aaaa5;
-  }
+}
+
+/* EXTRA-small devices, phones */
+@media only screen and (min-width: 480px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* SMALL devices, tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* MEDIUM devices, desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* LARGE devices, widescreens */
+@media only screen and (min-width: 1200px) {
+
+}
 
   #logo {
     width: 100%;
