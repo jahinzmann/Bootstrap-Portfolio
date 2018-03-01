@@ -9,14 +9,6 @@ body {
   background-image: "images/ignasi_pattern_s.png";
 }
 
-html {
-  /* Positioning */
-  position: relative;
-
-  /* Box-model */
-  min-height: 100%;
-}
-
 /* ---------NAV START---------- */
 
 .navbar-custom {
