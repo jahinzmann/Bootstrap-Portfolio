@@ -6,9 +6,10 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   
     /* Visual */
-    background-image: url("../imgs/ignasi_pattern_s.png");
-  }
-  
+    background-image: url("../images/concrete_seamless.png"); 
+    background-repeat:repeat; 
+}
+
   html {
     /* Positioning */
     position: relative;
@@ -91,7 +92,7 @@ body {
     color: #bbc;
   }
   
-  #nate-image {
+  #controlImg {
     /* Positioning */
     float: left;
   
